@@ -1,96 +1,103 @@
-body{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWenAYgHgAluigZ_sn0BuzytFBMqatvEcrsA&usqp=CAU");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.text h1{
-text-align: left;
-    padding-left: 0%;
-    font-family: cursive;color: rgba(220, 20, 37, 0.979) ;
-    font-weight: bold;
-    color:lightgreen;
-}
-.image{
-    padding-top: 1%;
-}
-a{
-    text-decoration: none;
-    color:black;
-}
-.explore{
-  list-style-image:url("../downloads/check.png");
-  border:1px rgba(0, 0, 0, 0.418) solid;
-  padding:2%;
-  padding-top: 0.1%;
-  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThWf_mqxylqSKHhEBGMxUq80T6nok8xKLKVw&usqp=CAU");
-  border-radius:15px;
-  border-color:white;
- 
-}
-.container{
-    background-color: black;
-    border-right: 5% lightgreen solid;
-    position: relative;
-}
-.explore ul{
-    list-style-image: url('../manitej//check.png');
-    padding-left: 3%;
-}
-.subscribe{
-    margin: 2% 0% 5% 0%;
-    padding: 1%;
-    background-color: green;
-    color:white;
-    font-weight: bold;
-    border-color:none;
-}
-.subscribe:hover{
-    transform: scale(1.1);
-}
-.floats{
-    float: right;
-    color:white;
-}
-.details .option{
-    background-color: beige;
-    color:grey;
-    border-radius: 3%;
-}
-.image_styles{
-    margin:1%;
-    border-radius: 8%;
-}
-.image_styles:hover{
-    transform: scale(1.1);
-}
-.container-2{
-    background-color: burlywood;
-}
-.fix-me{
-    position: fixed;
-    border-top=20px;
-}
-.button{
-    padding:1%;
-margin-top: 6em; 
-    background-color:black;
-    color:white;
-    font-weight: bold;
-    border-radius: 3%;
-    border-color:none;
-}
-.button:hover{
-    background-color: green;
-}
-#thankyou{
-    flolat=right;
-    widows: 30%;
-    background-color: honeydew;
-    padding:1%;
-    box-sizing:border-box;
-}
-.feedback {
-    width:100%;
-    heigth:500px;
-    border:1px solid grey;
-}
+<!DOCTYPE html>
+<html>
+    <style>
+    body{
+        background-color:azure;
+    }
+</style>
+    <head>
+        <title> my start </title>
+        <link rel="stylesheet" href="style_basic.css"/>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+    <body>
+        <div class="container">
+            <div class="image">
+            <img  width=5%
+             src="https://cdn4.iconfinder.com/data/icons/e-learning-color/64/download-text-material-128.png"
+             ALIGN="left"/>
+             <h3 class="floats"> Home &nbsp &nbsp;| Contact us &nbsp &nbsp; | About US &nbsp &nbsp; </h3>  
+            </div> 
+            <div class="text">
+            <h1 >  IMAGE DOWNLOADER </h1>  
+             </div>
+             <a class="fix-me button" href="">Help</a>
+         </div>
+           <div>
+              <p1> If you are not subscribed in to the website <a style="color:blue;" href="https://www.google.com/search?client=opera&q=email+login&sourceid=opera&ie=UTF-8&oe=UTF-8"> <br> <button class="subscribe"> Subscribe</button></a></p1></div>
+              <h3> your details</h3>
+              <div class="details">
+               <input placeholder="enter your mail"/>
+                <select>
+                <option value="below 16">below 16</option>
+                <option value="above 16">above 16</option></select>
+                <input type="checkbox"name="gender"value="male">Male
+                <input type="checkbox"name="gender"value="female">FeMale
+                <button style="background-color:cyan;"> submit </button>
+                <br><br>
+                </div>
+            
+        <div>
+           <div class="explore">
+            <h2 style="color:rgb(211, 0, 0);text-align:center;">explore your photos</h2>
+            <ul>
+            <li > <a href="https://www.google.com/search?q=nature+images&tbm=isch&ved=2ahUKEwjhr7exhcDsAhXhhEsFHXroBusQ2-cCegQIABAA&oq=nature+im&gs_lcp=CgNpbWcQARgAMgUIABCxAzIFCAAQsQMyBQgAELEDMgIIADICCAAyBQgAELEDMgIIADICCAAyAggAMgIIADoECAAQQzoGCAAQBxAeUKS9MFjuizFgzpYxaABwAHgAgAGeAogBuA2SAQUwLjQuNJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=9zONX6HYCOGJrtoP-tCb2A4&bih=658&biw=1311&client=opera&hs=m8R&hl=en&hl=en" >Nature hd</a></li>
+            <li > <a href="https://www.google.com/search?q=photography+images&tbm=isch&ved=2ahUKEwjzpvu0iMDsAhX7jEsFHby2DPcQ2-cCegQIABAA&oq=photography+images&gs_lcp=CgNpbWcQAzICCAAyBQgAELEDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BAgAEEM6BggAEAcQHlDE0gFYo6ECYK-3AmgBcAB4AIABqQKIAbkVkgEFMC40LjiYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=IzeNX7OJNPuZrtoPvO2yuA8&bih=658&biw=1311&client=opera&hs=m8R&hl=en&hl=en" > Photography</a></li>
+            <li > <a href="https://www.google.com/search?q=abstract+images&tbm=isch&ved=2ahUKEwiGk7LLiMDsAhVeg0sFHZGKDAoQ2-cCegQIABAA&oq=abstract+images&gs_lcp=CgNpbWcQARgAMgUIABCxAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoHCAAQsQMQQzoECAAQQzoGCAAQBxAeUO3mDVix-g1g0YYOaABwAHgAgAGVAogBsw2SAQUwLjUuM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=UjeNX4aiNt6GrtoPkZWyUA&bih=658&biw=1311&client=opera&hs=m8R&hl=en&hl=en" >Abstract pics </a></li>
+            <li > <a href="https://www.google.com/search?q=abstract+images&tbm=isch&ved=2ahUKEwiGk7LLiMDsAhVeg0sFHZGKDAoQ2-cCegQIABAA&oq=abstract+images&gs_lcp=CgNpbWcQARgAMgUIABCxAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoHCAAQsQMQQzoECAAQQzoGCAAQBxAeUO3mDVix-g1g0YYOaABwAHgAgAGVAogBsw2SAQUwLjUuM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=UjeNX4aiNt6GrtoPkZWyUA&bih=658&biw=1311&client=opera&hs=m8R&hl=en&hl=en" > Pics Art </a></li>
+            </ul>
+        </div>
+        </div>
+        <div>
+            <p>Explore < backgrounds < <strong>NATURE</strong></p>
+            <h1><u>Nature backgrounds</u></h1><br>
+            <div class ="container-2"
+            <pre><q><mark> backgrounds</mark> are probably the most popular,
+                     and it's easy to see why. In our modern, 
+                     tech-dominated world, a little slice of nature (or even an image) can go a long way.
+                     But make sure to use only the most beautiful and well-shot nature backgrounds, 
+                     and Unsplash is the best destination on the web for high-quality, free images.</q></pre>
+           </div> </div>
+                <img  class="image_styles"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYGOgq9puN2rmDvFR26hqcIwdNKzYtuAOwBQ&usqp=CAU"/>
+                <img  class="image_styles"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSuKmBVQ-zKcGjSdzQJkxBuPVYFtVqyiexS6g&usqp=CAU"
+                height="167"/>
+            <img class="image_styles"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_Kb5zjOLGpweQ-zLTo9XYOFG84HFjAwukbA&usqp=CAU"
+             height="170"/>
+             <img   class="image_styles"
+             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT0yW_GUYKO_ygKB_Oe7Yo2xBC6yRfBZtBRAg&usqp=CAU"
+             />
+            <a style=" font-weight:bold;color:blue;"href="https://www.google.com/search?client=opera&q=background+pics&sourceid=opera&ie=UTF-8&oe=UTF-8"
+            target="_blank"> >see more</a>
+            </div><br>
+            <div>
+            <button class="subscribe"style="background-color: darkgreen;color:white;">DOWNLOAD</button>
+            </div>
+           
+               <h1> Photography </h1>
+               <img class="image_styles"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAhdVkoka4idprZY1XJXc3lUtOTOI3TxV1ng&usqp=CAU"/>
+               <img class="image_styles" height="277"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhZCFEo-L0gwgBUUxmr8Xr6eo-pj_5G_tp7w&usqp=CAU"/>
+               <img class="image_styles" height="275"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS15NwhvFi-MLhRsE8LwOwbyljeI0B4mdGSew&usqp=CAU"/>
+               <img class="image_styles" height="275"
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBdj3hnJpn-VaqSrJWIK2_1ufhWDdqE4T6SQ&usqp=CAU"/>
+               <a style="font-weight:bold;color:blue;"href="https://www.google.com/search?q=cb+background&tbm=isch&client=opera&hs=6xW&hl=en&sa=X&ved=2ahUKEwiA6O" target="_blank"> >see more</a>
+               <div>
+                <button class="subscribe"style="background-color: darkgreen;color:white;">DOWNLOAD</button>
+               </div >
+               <div >
+                 <h3> feedback or any suggestions</h3>
+                 <input class="feedaback" placeholder="enter here">
+               <div>
+
+               </div>
+               <div id="thankyou">
+                   <h1> Thank you </h1>
+                   <p> Hope that you've downloaded your required images</p>
+               </div>
+        </body>
+</html>
